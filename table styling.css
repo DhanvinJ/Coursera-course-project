@@ -1,0 +1,85 @@
+body{
+	margin: 10px;
+	padding: 10px;
+}
+header{
+	background-color: #b7b7b7;
+	background-image: url("file:///Users/djnvinn/Downloads/assignment-1%202/css/flywheel.jpg");
+	height: 140px;
+	padding-top: 10px;
+	padding-left: 10px;
+    background-size: 100%;
+}
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.8vw;
+	text-transform: uppercase;
+}
+nav a{
+	background-color: rgb(200,200,200,0.5);
+    border-radius: 5px;
+	color: #000000;
+	display: inline-block;
+	width: 100px;
+	padding: 15px 40px;
+	margin: 0px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+a.active{
+	background-color: #FFFFFF;
+	color: rgb(0,0,150);
+}
+aside{
+	display: inline;
+	float: left;
+	background-color: #a5a93e;
+	padding-top: 10px;
+	padding-bottom: 100vw;
+}
+.left img{
+	width: 150px;
+	border: 2px solid #000000;
+	margin: 15px 23px;
+	display: block;
+}
+section.right{
+	display: inline;
+	
+	margin-left: 10px;
+}
+h2,p{
+	margin-left: 210px;
+}
+ul{
+	margin-left: 200px;
+}
+table{
+	margin-left: 300px;
+}
+th{
+	color: #FFFFFF;
+	border-bottom: solid 3px rgb(115,182,74) ;
+	height: 40px;
+	background-image: linear-gradient(0deg,#a5a93e,rgba(136,184,65,0.8));
+	padding-left: 10px;
+	border-radius: 5px 5px 0px 0px;
+}
+td{
+	background-color: rgba(138,199,64,0.5);
+	padding: 10px;
+	font-family: sans-serif;
+	color: #555555;
+	opacity: 0.7;
+}
+td:first-child,th:first-child{
+	text-align: left;
+}
+td:nth-child(2),td:last-child{
+	text-align: center;
+	width: 20%;
+}
+tr:hover td{
+	opacity: 1;
+}
